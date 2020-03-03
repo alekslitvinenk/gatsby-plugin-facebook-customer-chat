@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-facebook-customer-chat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gatsby plugin to integrate Facebook Javascript SDK on your project.",
   "author": "Hieu Pham <mr_hie@yahoo.com>",
   "repository": {
