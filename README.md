@@ -1,10 +1,13 @@
-# gatsby-plugin-facebook-sdk
+# gatsby-plugin-facebook-customer-chat
 
-Gatsby plugin to integrate [Facebook Javascript SDK](https://developers.facebook.com/docs/javascript) on your project.
+Forked from (drakang4/gatsby-plugin-facebook-sdk)[https://github.com/drakang4/gatsby-plugin-facebook-sdk]
+
+Gatsby plugin to integrate [Facebook Javascript SDK](https://developers.facebook.com/docs/javascript)
+and [Facebook Customer Chat Plugin](https://developers.facebook.com/docs/messenger-platform/discovery/customer-chat-plugin/) on your project.
 
 ## Install
 
-`npm install --save gatsby-plugin-facebook-sdk` or `yarn add gatsby-plugin-facebook-sdk`
+`npm install --save gatsby-plugin-facebook-customer-chat` or `yarn add gatsby-plugin-facebook-customer-chat`
 
 ## How to use
 
@@ -12,10 +15,17 @@ Gatsby plugin to integrate [Facebook Javascript SDK](https://developers.facebook
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-plugin-facebook-sdk`,
+    resolve: `gatsby-plugin-facebook-customer-chat`,
     options: {
-      appId: 'your-app-id',
-      ...
+      sdk: {
+        appId: 'your-app-id',
+        ...
+      },
+      chat: {
+        pageId: 'your-page-id',
+        loggedInGreeting: 'Hi! How can I help you?',
+        loggedOutGreeting: 'Hi! How can I help you?',
+      }
     },
   },
 ];
