@@ -1,6 +1,6 @@
 # gatsby-plugin-facebook-customer-chat
 
-Forked from (drakang4/gatsby-plugin-facebook-sdk)[https://github.com/drakang4/gatsby-plugin-facebook-sdk]
+Forked from [drakang4/gatsby-plugin-facebook-sdk](https://github.com/drakang4/gatsby-plugin-facebook-sdk)
 
 Gatsby plugin to integrate [Facebook Javascript SDK](https://developers.facebook.com/docs/javascript)
 and [Facebook Customer Chat Plugin](https://developers.facebook.com/docs/messenger-platform/discovery/customer-chat-plugin/) on your project.
